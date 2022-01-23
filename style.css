@@ -1,0 +1,125 @@
+body {
+  background-color: #080a40;
+  background-image: linear-gradient(#080a40, #18185c);
+
+}
+
+h1 {
+  font-size: 4em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.white-text-container {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bi-linkedin, .bi-github {
+  width: 1em;
+  height: 1em;
+  font-size: 2em;
+  color: white;
+  margin: 0.5em;
+  display: inline-block;
+}
+
+.bi-linkedin:hover, .bi-github:hover {
+  transform: scale(1.1);
+}
+
+.header-container {
+  margin: 4em 2em 2em 2em;
+}
+
+.card {
+  margin: 2em 4em 2em 4em;
+}
+
+.card-block {
+  margin: 3em;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 300px;
+}
+
+.img-work {
+  float: right;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 300px;
+  margin: 0 0 1em 1em;
+}
+
+.bi-facebook {
+  margin: 0 0.2em 0 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.lang-item {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 1em 0 0;
+}
+
+.card-custom {
+  margin: 0 1em 2em 1em;
+  background-color: #ddd;
+  background-image: linear-gradient(#ddd, #fff);
+  padding: 2em;
+  box-shadow: 0 10px 6px -6px #777;
+  transition: transform .4s;
+}
+
+.card-custom:hover {
+  transform: scale(1.05);
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.uis-logo {
+  width: 1.5em;
+  height: auto;
+  margin: 0 0.2em 0 0;
+}
+
+.amu-logo {
+  width: 2.5em;
+  height: auto;
+  margin: 0 0.2em 0 0;
+}
+
+form * {
+  margin: 1em 0 0 0;
+}
+
+.btn-primary {
+  background-color: #18185c;
+  border-color: #18185c;
+  font-weight: 500;
+}
